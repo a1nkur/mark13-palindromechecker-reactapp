@@ -3,7 +3,7 @@ import styled from "styled-components";
 import {
   AiOutlineLinkedin,
   AiOutlineGithub,
-  AiOutlineUser,
+  // AiOutlineUser,
   AiFillTwitterCircle,
 } from "react-icons/ai";
 
@@ -12,28 +12,28 @@ const Footer = () => {
     <FooterContainer>
       <ul>
         <li>
-          <a href="">
+          <a href="https://www.linkedin.com/in/ankur-kumar-ba3833202/">
             <span>
               <AiOutlineLinkedin />
             </span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="https://github.com/ankur29mac">
             <span>
               <AiOutlineGithub />
             </span>
           </a>
         </li>
-        <li>
+        {/* <li>
           <a href="">
             <span>
               <AiOutlineUser />
             </span>
           </a>
-        </li>
+        </li> */}
         <li>
-          <a href="">
+          <a href="https://twitter.com/ankur29mac">
             <span>
               <AiFillTwitterCircle />
             </span>
